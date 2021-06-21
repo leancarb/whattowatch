@@ -1,0 +1,80 @@
+.rounded-corners {
+    border-radius: 15px;
+}
+
+.rounded-img{
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.flex{
+    display: flex;
+}
+
+body {
+    background-color: #090a0a;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+#container {
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 2em auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1em;
+    background-color: #14181c;
+    border-radius: 0.5em;
+}
+a:link, a:visited {
+    color: #38488f;
+    text-decoration: none;
+}
+@media (max-width: 700px) {
+    div {
+        margin: 0 auto;
+        width: auto;
+    }
+}
+#title {
+    color: #EEF1F2;
+}
+
+#aka {
+    color: #9da0ad;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+#director {
+    color: #99aabb;
+    font-family: 'Roboto', sans-serif;
+}
+#content {
+    color: #99aabb;
+    font-family: 'Roboto';
+}
+#donde {
+    color: #ddeeff;
+    font-family: 'Roboto', sans-serif;
+}
+#runtime {
+    color: #ddeeff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.reloadCont{
+    margin: auto;
+    width: 20px;
+    color: white;
+}
+
+.reloadCont:hover{
+    cursor: pointer;
+}
+
+#info {
+    width: 85%;
+}
